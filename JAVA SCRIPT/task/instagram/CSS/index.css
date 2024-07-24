@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.insta-img{
+width: 50%;
+border:  1px solid black;
+text-align: end;
+}
+
+.insta-img>img{
+    margin-top: 50px;
+}
+
+.contant{
+    width: 50%;
+    border:  1px solid red;
+}
+
+.insta-page{
+    height: 450px;
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+}
+
+.insta-page>h1{
+    font-size: 50px;
+    line-height: 130px;
+    font-family: cursive;
+}
+
+.insta-page>input{
+    width: 80%;
+    height: 7%;
+    padding: 10px;
+}
+
+.insta-page>button{
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+    border: 0px;
+    background-color:#4cb5f9;
+    color: white;
+    font-weight: 700;
+}
+
+.insta-page>p{
+  font-size: 15px;
+}
+
+.insta-page>h4{
+    color: #385185;
+    font-family: sans-serif;
+}
+
+.insta-page>h5{
+    font-weight: 100;
+}
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="userName" id="userName" placeholder="Enter Username" onblur="validateMyForm(this , e1 , 'userName')">
+    <span id="e1"></span>
+    <br><br>
+    <input type="password" name="userPass" id="userPass" placeholder="Enter Password" onblur="validateMyForm(this, e2 , 'userPass')">
+    <span id="e2"></span>
+    <br><br>
+    <input type="email" name="userEmail" id="userEmail" placeholder="Enter Email" onblur="validateMyForm(this, 'error3' , 'userEmail')">
+    <span id="e3"></span>
+    <br><br>
+    <input type="tel" name="userNumber" id="userNumber" placeholder="Enter Number" onblur="validateMyForm(this, 'error4' , 'userNumber')">
+    <span id="e4"></span>
+    <br><br>
+</body>
+</html>
+<script src="validation.js"></script>

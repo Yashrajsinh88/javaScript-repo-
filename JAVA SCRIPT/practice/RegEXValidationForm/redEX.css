@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+h2{
+    color:brown;
+}
+.onfocus-item{
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.onchange-item{
+    text-align: center;
+}
+
+select{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.regEx-item{
+    text-align: center;
+}

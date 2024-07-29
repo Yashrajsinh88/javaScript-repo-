@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="redEX.css">
+</head>
+<body>
+    <!-- onfocus  -->
+     <div class="onfocus-item">
+    <h2>regEx Form All Type</h2>
+    <input type="text" placeholder="UserName" id="name" onblur="validateForm(this , e1 , 'UserName Required')" onfocus="focusHere(this)">
+    <span id="e1"></span>
+    <br><br>
+    <input type="email" placeholder="UserEmail" id="email" onblur="validateForm(this , e2 , 'UserEmail Required')" onfocus="focusHere(this)">
+    <span id="e2"></span>
+    <br><br>
+    <input type="password" placeholder="UserPassword" id="password" onblur="validateForm(this , e3 , 'UserPassword Required')" onfocus="focusHere(this)">
+    <span id="e3"></span>
+    <br><br>
+    <input type="number" placeholder="UserNumber" id="number" onblur="validateForm(this , e4 , 'UserNumber Required')" onfocus="focusHere(this)">
+    <span id="e4"></span><br><br>
+</div>
+    <!-- onchange -->
+     <div class="onchange-item">
+    <select name="" id="leptop" onchange="change(this , e5)">
+        <option value="Lenovo">Lenovo</option>
+        <option value="HP">HP</option>
+        <option value="Dell">Dell</option>
+        <option value="Asus">Asus</option>
+    </select>
+    <span id="e5"></span>
+    <br><br>
+</div>
+    <!-- regEx form -->
+    <div class="regEx-item">
+    <h2>REGEX</h2>
+    <input type="text" placeholder="UserName" id="name" oninput="checkName(this , e6)">
+    <span id="e6"></span>
+    <br><br>
+    <input type="email" placeholder="UserEmail" id="email" oninput="checkEmail(this , e7)">
+    <span id="e7"></span>
+    <br><br>
+    <input type="password" placeholder="UserPassword" id="password" oninput="checkPassword(this , e8)">
+    <span id="e8"></span>
+    <br><br>
+    <input type="number" placeholder="UserNumber" id="number" oninput="checkNumber(this , e9)">
+    <span id="e9"></span><br><br>
+</div>
+</body>
+</html>
+<script src="regEx.js"></script>

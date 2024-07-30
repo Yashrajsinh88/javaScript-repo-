@@ -11,20 +11,20 @@
     align-items: center;
     gap: 5rem;
 }
-.contain{
+.content{
     width: 35%;
     height: 250px;
     /* border: 1px solid maroon; */
 }
-.contain>img{
+.content>img{
     width: 65%;
 }
-.contain>h1{
+.content>h1{
     font-size: 60px;
     color: #0866ff;
 
 }
-.contain>p{
+.content>p{
     text-align: justify;
     font-size: 27px;
     font-family: sans-serif;

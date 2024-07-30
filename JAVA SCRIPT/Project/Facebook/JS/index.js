@@ -7,7 +7,7 @@ document.getElementById("pass-icon").addEventListener("click",function(){
       img.src = "../IMG/show.png";
   }else{
       a.type = "password";
-      img.src = "../IMG/hide.png";  
+   let hide = img.src = "../IMG/hide.png"; 
 }
 
-});
+});b

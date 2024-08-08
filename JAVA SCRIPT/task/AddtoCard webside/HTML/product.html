@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- bootstrap link  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- icon link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/product.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a><img src="https://ziro9.com/cdn/shop/files/z9_white_logo.png?v=1689510634&width=140" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav accordion h-ul1">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="../HTML/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../HTML/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../HTML/product.html">Products</a>
+              </li>
+              
+            </ul>
+          </div>
+            
+          <!-- icons -->
+          <div>
+            <i class="fa-solid fa-cart-shopping fa-lg me-3 i-addcard" style="color: #ffffff;"></i>
+            <span class="counter"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+<!-- card started  -->
+<!-- card started  -->
+<!-- card started  -->
+      <section>
+        <div class="product-hero">
+          <h4>Product Menu</h4>
+
+          <div class="category">
+            <button class="btnAll" onclick="">All</button>
+            <button class="btnMen" onclick="menOnly()">Men</button>
+            <button class="btnWomen" onclick="">Women</button>
+          </div>
+          <div class="container">
+           <div class="card-all">
+            
+              <div class="card1 men">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18225520/2024/2/9/c4175777-fe07-4210-b930-a8e3249f5ea61707472893873-Nautica-Men-Slim-Fit-Printed-Casual-Shirt-2961707472893301-1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div>
+
+              <div class="card2 women">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26284464/2023/12/6/685dface-df06-4570-84ea-68720a253a6f1701881975360AllenSollyWomanWomenBlackColourblockedCasualShirt1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div>
+
+              <div class="card3 men">
+                 <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24693578/2023/8/28/99c01da6-b90b-42aa-9d87-2af5625de1861693222553756USPoloAssnDenimCoMenBrownSlimFitFloralOpaquePrintedCasualShi1.jpg" alt="" width="100%" height="270px"></div>
+                 <div class="c-text">
+                  <h5>U.S.Polo Assn</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.3000</h6>
+                 </div>
+
+                <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div>
+
+              <div class="card4 womem">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29929899/2024/6/10/922b2da9-ed6e-47c7-bfd4-1688d2bb229c1717995101644HoneybyPantaloonsWomenOpaqueCasualShirt1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div>
+
+              <div class="card5 men">
+                 <div><img src="https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/24551324/2023/8/18/94852f79-35e7-4efd-b841-2d88e078af6b1692368587966Jackets7.jpg" alt="" width="100%" height="270px"></div>
+                 <div class="c-text">
+                  <h5>Kook N Keech</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.6543</h6>
+                 </div>
+
+                 <div class="add-card">
+                  <button onclick="clickme()">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                   <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                 </svg>
+                 Add To Card
+               </button>
+               <p>Sizes:39</p>
+                </div>
+              </div>
+
+
+
+              <div class="card6 men">
+                     <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/JULY/27/zunZ2sun_4a1c0823315f44ddaf35c945ad056440.jpg" alt="" width="100%" height="270px"></div>
+                     <div class="c-text">
+                      <h5>Nautica</h5>
+                      <p>Slim-Fit-Printed-Casual-Shirt</p>
+                      <h6>Rs.1364</h6>
+                     </div>
+
+                     <div class="add-card">
+                      <button onclick="clickme()">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                       <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                     </svg>
+                     Add To Card
+                   </button>
+                   <p>Sizes:39</p>
+                    </div>
+              </div>
+
+              <div class="card7 women">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22804142/2023/4/18/df23f379-507a-4875-aee8-2af42dd61f3a1681815764966HighStarWomenGreyClassicTailoredFitOpaqueStripedPartyShirt1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div>
+
+              <div class="card8 women">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26029502/2024/1/31/ae4da2e2-518d-4b6d-912f-b0081c7c58131706700852919-Roadster-Women-Shirts-921706700852469-1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card9">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/28876814/2024/4/11/ea9f14d0-e9d6-499e-b6ac-7d557118853c1712856304813SELECTEDMenOpaquePrintedCasualShirt1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card10">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26590354/2023/12/21/14cb1c96-f103-46c7-8877-0e56368bb8331703179900540GingerbyLifestyleBlueshortTop1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card11">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18331076/2022/9/6/1cb50057-abea-4284-aeb9-cddee41e2b7b1662463041720-Anouk-Men-Red--Grey-Floral-Printed-Pure-Cotton-Casual-Shirt--1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card12">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25641102/2023/10/26/1f85073d-72fd-485d-b85d-9263517ba6021698333032166HERENOWMenNavyBlueSlimFitOpaqueCasualShirt1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card13">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/27412054/2024/2/7/490ffe82-c6c8-47a8-87a0-d89b845fb6931707289367096SHAYEWomenClassicOpaqueCasualShirt1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card14">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24752006/2023/9/19/8481b266-b0f8-40ec-9fb1-bc687c256e921695122353612-Mast--Harbour-Men-Shirts-8291695122353165-1.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card15">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26918904/2024/1/13/b3a56e0f-82bf-4d3a-9a96-c11fbddce1ae1705151210436RoadsterWomenGraphicPrintedOversizedCasualShirts6.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+              <div class="card16">
+                <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/JULY/24/IoSEvswN_2f13f35be7694b09a798c16f822debb9.jpg" alt="" width="100%" height="270px"></div>
+                <div class="c-text">
+                  <h5>Nautica</h5>
+                  <p>Slim-Fit-Printed-Casual-Shirt</p>
+                  <h6>Rs.1364</h6>
+                </div>
+
+             <div class="add-card">
+               <button onclick="clickme()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+              Add To Card
+            </button>
+            <p>Sizes:39</p>
+             </div>
+              </div> 
+
+         <!-- card end      -->
+            </div>
+         </div>
+           </div>     
+      </section>
+    </main>
+
+
+
+    <!-- footer started  -->
+
+    <footer>
+
+        <div class="main-footer">
+         <div class="contect">
+          <ul>
+             <li>Contact and Support</li>
+                <li>ziro9.com</li>
+                <li>Timings: 10:00 AM to 07:00 PM, Monday to Friday</li>
+              </ul>
+         </div>
+      
+         <div class="quick-links">
+          <ul>
+      
+          <li>Quick Links</li>
+             <li>Contact Us</li>
+             <li>Exchange Policy</li>
+             <li>Terms and Conditions</li>
+             <li>Privacy Policy</li>
+             <li>About Us</li>
+             <li>Terms of Service</li>
+             <li>Returns policy</li>
+           </ul>
+      </div>
+      
+      <div class="shopping">
+        <ul>
+        <li>Online Shopping</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Beauty</li>
+          <li>Gift Cards</li>
+        </ul>
+      </div>
+      
+      <div class="follow">
+      <ul>
+        <li>Follow Us</li>
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V4NGi4jiLPvEtqcMH5AkQRSsyJ77UaJjDQ&s" alt="" width="30px"></li><br>
+        <li><img src="https://static.vecteezy.com/system/resources/previews/012/660/856/non_2x/facebook-logo-on-transparent-isolated-background-free-vector.jpg" alt="" width="30px"></li>
+      </ul>
+      </div>
+      </div>
+      </footer>
+      <script src="../JS/index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="h-100 gradient-custom">
+  <div class="container py-5">
+    <div class="row d-flex justify-content-center my-4">
+      <div class="col-md-8">
+        <div class="card mb-4">
+          <div class="card-header py-3">
+            <h5 class="mb-0">Cart - 2 items</h5>
+          </div>
+          <div class="card-body">
+            <!-- Single item -->
+            <div class="row">
+              <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <!-- Image -->
+                <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp"
+                    class="w-100" alt="Blue Jeans Jacket" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                  </a>
+                </div>
+                <!-- Image -->
+              </div>
+
+              <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                <!-- Data -->
+                <p><strong>Blue denim shirt</strong></p>
+                <p>Color: blue</p>
+                <p>Size: M</p>
+                <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-sm me-1 mb-2" data-mdb-tooltip-init
+                  title="Remove item">
+                  <i class="fas fa-trash"></i>
+                </button>
+                <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger btn-sm mb-2" data-mdb-tooltip-init
+                  title="Move to the wish list">
+                  <i class="fas fa-heart"></i>
+                </button>
+                <!-- Data -->
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- Quantity -->
+                <div class="d-flex mb-4" style="max-width: 300px">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary px-3 me-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <div data-mdb-input-init class="form-outline">
+                    <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                    <label class="form-label" for="form1">Quantity</label>
+                  </div>
+
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary px-3 ms-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <!-- Quantity -->
+
+                <!-- Price -->
+                <p class="text-start text-md-center">
+                  <strong>$17.99</strong>
+                </p>
+                <!-- Price -->
+              </div>
+            </div>
+            <!-- Single item -->
+
+            <hr class="my-4" />
+
+            <!-- Single item -->
+            <div class="row">
+              <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <!-- Image -->
+                <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/13a.webp"
+                    class="w-100" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                  </a>
+                </div>
+                <!-- Image -->
+              </div>
+
+              <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                <!-- Data -->
+                <p><strong>Red hoodie</strong></p>
+                <p>Color: red</p>
+                <p>Size: M</p>
+
+                <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-sm me-1 mb-2" data-mdb-tooltip-init
+                  title="Remove item">
+                  <i class="fas fa-trash"></i>
+                </button>
+                <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger btn-sm mb-2" data-mdb-tooltip-init
+                  title="Move to the wish list">
+                  <i class="fas fa-heart"></i>
+                </button>
+                <!-- Data -->
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- Quantity -->
+                <div class="d-flex mb-4" style="max-width: 300px">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary px-3 me-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <div data-mdb-input-init class="form-outline">
+                    <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                    <label class="form-label" for="form1">Quantity</label>
+                  </div>
+
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary px-3 ms-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <!-- Quantity -->
+
+                <!-- Price -->
+                <p class="text-start text-md-center">
+                  <strong>$17.99</strong>
+                </p>
+                <!-- Price -->
+              </div>
+            </div>
+            <!-- Single item -->
+          </div>
+        </div>
+        <div class="card mb-4">
+          <div class="card-body">
+            <p><strong>Expected shipping delivery</strong></p>
+            <p class="mb-0">12.10.2020 - 14.10.2020</p>
+          </div>
+        </div>
+        <div class="card mb-4 mb-lg-0">
+          <div class="card-body">
+            <p><strong>We accept</strong></p>
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+              alt="Visa" />
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+              alt="American Express" />
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+              alt="Mastercard" />
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.webp"
+              alt="PayPal acceptance mark" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-header py-3">
+            <h5 class="mb-0">Summary</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                Products
+                <span>$53.98</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                Shipping
+                <span>Gratis</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                <div>
+                  <strong>Total amount</strong>
+                  <strong>
+                    <p class="mb-0">(including VAT)</p>
+                  </strong>
+                </div>
+                <span><strong>$53.98</strong></span>
+              </li>
+            </ul>
+
+            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block">
+              Go to checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

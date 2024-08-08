@@ -6,7 +6,8 @@ box-sizing: border-box;
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    /* background-color: #edb07b; */
+    background-color:blanchedalmond;
 }
 
 textarea {
@@ -56,7 +57,8 @@ textarea{
 .word-count{
     height: 70px;
     width: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: #d9534f;
     margin: auto;
     text-align: center;
     line-height: 70px;
@@ -74,7 +76,8 @@ textarea{
 .char-count{
     height: 70px;
     width: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: #d9534f;
     margin: auto;
     text-align: center;
     line-height: 70px;
@@ -102,7 +105,9 @@ textarea{
     height: 80px;
     width: 250px;
     border-radius: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     font-weight: bolder;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

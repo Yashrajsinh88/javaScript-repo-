@@ -31,11 +31,12 @@ body{
 }
 
 .text>textarea{
-    height: 200px;
+    height: 100px;
     width: 80%;
     margin:10px 0px 0px 10px;
     border-radius: 20px;
     padding: 10px;
+    margin-top: 70px;
 }
 
 .text>button{
@@ -111,8 +112,9 @@ text-align: center;
     width: 50px;
 }
 
-#text1{
-/* border: 1px solid red; */
+#saveTask{
+background-color: white;
+color: black;
 width: 62%;
 transform: translate(25px , 0px);
 }

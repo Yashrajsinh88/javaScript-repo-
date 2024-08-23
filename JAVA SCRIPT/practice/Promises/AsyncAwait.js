@@ -3,7 +3,7 @@ async function myFunc() {
      setTimeout(() => {
             res("done!");
             // window.location.href = "err.html";
-        }, 2000);
+        },1000);
     });
     let result = await promise;
     console.log(result);

@@ -1,6 +1,7 @@
 let counter = document.querySelector(".counter");
 let men = document.querySelectorAll(".men");
 let women = document.querySelectorAll(".women")
+let btnMen = document.
 
 let count = 1;
  function clickme() {

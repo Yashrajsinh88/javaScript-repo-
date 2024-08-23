@@ -51,9 +51,9 @@ let myPromises = new Promise((res , rej) => {
 
 // with then 
 
-// .then((err) => {
-//    console.log(err);
-// })
+.then((err) => {
+   console.log(err);
+})
 
 // with catch
 
@@ -63,5 +63,5 @@ let myPromises = new Promise((res , rej) => {
 });
 
 // question
-// khali then pass kari toy javab aavi jay che 
+// khali then pass kari toy javab aavi jay che
 

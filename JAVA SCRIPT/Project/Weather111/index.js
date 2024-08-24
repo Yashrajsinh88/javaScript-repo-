@@ -1,5 +1,13 @@
+
+// let searchBar = document.querySelector(".searchBar")
+// console.log(searchBar);
+
+// let city = searchBar.value;
+
 const apikey = "e374cae37fbf9ba76c083a33f830dda7"
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore";
+const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=surat`;
+
+// let searchBar = document.getElementsByClassName("searchBar");
 
 async function checkWeather() {
     const res = await fetch(apiUrl + `&appid=${apikey}`)
@@ -9,28 +17,28 @@ async function checkWeather() {
   <div class="weather-side">
   <div class="weather-gradient"></div>
   <div class="search-container">
-  <input type="text" class="search-bar" placeholder="enter city name">
-  <span class="search-icon"> <i class="fa-solid fa-magnifying-glass" style="color: #1f83cf;"></i>
+  <input type="text" class="searchBar" placeholder="enter city name">
+  <span class="search-icon" onclick="locationName()"> <i class="fa-solid fa-magnifying-glass" style="color: #1f83cf;"></i>
   </span> 
   </div>
   <div class="date-container">
-    <h2 class="date-dayname">Friday</h2><span class="date-day">26 April 2024</span><i class="location-icon" data-feather="map-pin"></i><span class="location">Paris, FR</span>
+    <h2 class="date-dayname">Friday</h2><span class="date-day">26 April 2024</span><i class="location-icon" data-feather="map-pin"></i><span class="location">${data.name}</span>
   </div>
   <div class="weather-container"><i class="weather-icon" data-feather="sun"></i>
-    <h1 class="weather-temp">29°C</h1>
+    <h1 class="weather-temp">${data.main.temp}</h1>
     <h3 class="weather-desc">Sunny</h3>
   </div>
 </div>
 <div class="info-side">
   <div class="today-info-container">
     <div class="today-info">
-      <div class="precipitation"> <span class="title">PRECIPITATION</span><span class="value">0 %</span>
+      <div class="precipitation"> <span class="title">PRECIPITATION</span><span class="value">${data.main.pressure}</span>
         <div class="clear"></div>
       </div>
-      <div class="humidity"> <span class="title">HUMIDITY</span><span class="value">34 %</span>
+      <div class="humidity"> <span class="title">HUMIDITY</span><span class="value">${data.main.humidity}</span>
         <div class="clear"></div>
       </div>
-      <div class="wind"> <span class="title">WIND</span><span class="value">0 km/h</span>
+      <div class="wind"> <span class="title">WIND</span><span class="value">${data.wind.speed}</span>
         <div class="clear"></div>
       </div>
     </div>
@@ -53,6 +61,11 @@ async function checkWeather() {
 }
 checkWeather()
 
+
+
+// function locationName() {
+  
+// }
 
 // console.log(checkWeather);
 // console.log(apikey);

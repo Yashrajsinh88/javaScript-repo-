@@ -20,8 +20,6 @@ function updateCartCount() {
 
 
 
-
-
 // btn filter function
 // catagory change all-men-women btn
 document.getElementById('all-btn').addEventListener('click', function() {

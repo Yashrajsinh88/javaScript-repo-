@@ -126,10 +126,21 @@
         width: 25%;
         margin: auto;
      }
-     .section7-login>button{
-       
-       display: none;
-       }
+
+     
+     .section7-login>input{
+        margin-top: 20px;
+     }
+
+       .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
 } 
 
 /* 500 */

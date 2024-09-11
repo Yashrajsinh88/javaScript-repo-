@@ -150,7 +150,6 @@ margin-left: 7%;
 }
 
 .all-topic{
-    /* border: 1px solid red; */
     padding: 0px 0px 15% 0px;
 }
 
@@ -266,7 +265,6 @@ margin-left: 7%;
     flex-direction: column;
     align-items: center;
     justify-content: center;  
-    border: 1px solid red;
     margin-bottom: -1%;
 }
 
@@ -339,17 +337,7 @@ width: 30%
 border: none;
 padding: .7% 1%;
 position: relative;
-}
-
-.section7-login>button{
-  padding: .7% 2vw;
-  border-radius: 30px;
-  border: none;
-  background-color: #21243d;
-  color: #ffff;
-  position: absolute;
-  bottom: 32%;
-  right: 35%;
+margin-top:41px;
 }
 
 
@@ -425,14 +413,4 @@ position: relative;
     filter: brightness(0.5) invert(1);
 }
 
-@media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .footer-section {
-        margin-bottom: 30px;
-        text-align: center;
-    }
-}

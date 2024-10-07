@@ -65,3 +65,4 @@ let myPromises = new Promise((res , rej) => {
 // question
 // khali then pass kari toy javab aavi jay che
 
+

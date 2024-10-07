@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: noto;
+}
+
+@font-face {
+    font-family:"noto" ;
+    src: url(../FONT/Noto_Sans/static/NotoSans_Condensed-Bold.ttf);
+}
+
+.mycontainer{
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.UniqueCollection{
+    width: 100%;
+    background-color: #f5f5f5;
+    /* padding: 50px 0px; */
+}
+
+.uniqueCaption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uniqueCaption p{
+    font-size: 15px;
+    background-color: black;
+    padding: 8px 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+}
+
+.uniqueCaption h2{
+    padding: 20px 0px 40px 0px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight:200;
+}
+
+
+.uniqueCaption button{
+    padding: 12px 32px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.273);
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+}
+
+.uniqueCaption button:hover{
+    background-color:rgb(153,194,126) ;
+    color: white;
+    border: none;
+}
+
+
+/* 1111111111111111111111111 */
+
+.shoesCard{
+  /* position: relative; */
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  /* border: 1px solid red; */
+  gap: 30px;
+}
+
+.allShoesCard{
+  /* position: relative; */
+  transition: all .3s ease-in-out;
+}
+
+.allShoesCard img{
+  width: 100%;
+  /* border: 1px solid red; */
+  /* position: relative; */
+}
+
+
+.shoes-text{
+  margin: auto;
+  position: absolute;
+  width: 23%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  color: white;
+  margin-top: 20px;
+}
+
+.shoes-text .icon-Arrow{
+width: 50px;
+height: 50px;
+text-align: center;
+line-height: 50px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0.068);
+margin: auto;
+}
+
+.shoes-text h2{
+  font-size: 2vw;
+font-weight:bold;
+margin: auto;
+}
+
+.shoes-text span{
+  font-style:oblique;
+}
+
+.shoes-text i{
+  margin: auto;
+}
+
+.allShoesCard:hover{
+  margin-top: -10px;
+}
+
+
+.custom-heading {
+  padding: 100px 0px;
+  /* padding-bottom: 0px; */
+  background-color: #f5f5f5;
+
+}
+
+.custom-heading .header-bl {
+  position: relative;
+  z-index: 1;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.custom-heading .header-bl .header-title {
+  background: linear-gradient(85deg, rgba(153, 194, 126, 1), rgba(23, 149, 178, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-title h6{
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header-title a{
+  border-bottom: 1px solid black;
+}
+
+.custom-heading .header-bl:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 1;
+  background: linear-gradient(to left, rgb(255, 255, 255, 0%) 0%, #ffffff 50%, rgb(255, 255, 255, 0%) 100%);
+}
+
+.popularShoes{
+  background-color: #f5f5f5;
+}
+
+.bestSeller{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+
+}
+
+.bestSeller p{
+  background-color: black;
+  padding: 6px 30px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.bestSeller h2{
+  font-size: 45px;
+}
+
+.bestSeller button{
+  text-transform: uppercase;
+  padding: 15px 28px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.079);
+
+}
+
+.bestSeller button:nth-child(1){
+  background-color:rgb(153,194,126) ;
+  color: white;
+  border: none;
+}
+
+
+/* 222222222 */
+
+.card {
+  min-width: 100%;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  /* font-size: 1.5rem; */
+  font-weight: bold;  
+  color: #333;
+}
+
+.card h4{}
+.product-img{width: 400px;}
+.rating-img{width: 38%;}
+.inform-p{font-size: 20px;color: rgba(0, 0, 0, 0.443);}
+.hover-btn{ width: 100%; display: flex;justify-content: center;gap: 1px;opacity: 0;}
+.hover-btn>button{ background-color: black; color: white; width: 50%;padding: 8px;}
+.card:hover .hover-btn{opacity: 1;transition: all 0.4s linear;}

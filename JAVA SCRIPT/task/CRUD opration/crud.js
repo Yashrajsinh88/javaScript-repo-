@@ -48,7 +48,7 @@ let allEdit = () => {
     // box.id = "checkbox1";
     // divText.id = "saveTask";
     // btnEdit.id = "edit1";
-    // btnDelate.id = "delate1";
+    // btnDelate.id = "delate1";v   
 
     // topic1.appendChild(maindiv)
     // maindiv.appendChild(box); 

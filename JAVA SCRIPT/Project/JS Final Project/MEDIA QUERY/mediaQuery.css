@@ -1,3 +1,27 @@
+@media (max-width:1200px) {
+    .bestSeller{
+        flex-direction: column;
+        /* justify-content: center; */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .bestSeller h2{
+        font-size: 35px;
+    }
+
+    .custom-heading{
+        padding: 50px 0px;
+    }
+
+    .bestSeller button{
+        padding: 10px 20px;
+    }
+    .bestMain{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+
 @media (max-width:1024px) {
     .unique-caption{
         flex-direction: column;
@@ -15,7 +39,6 @@
         gap: 30px;     
         margin: auto;
         text-align: center;   
-
     }
 
     .allShoesCard{
@@ -37,7 +60,13 @@
       font-size: 3vw;
     }
 
+.addToCardHover button:nth-child(1){
+    padding: 2vw 3vw; 
+}
 
+.addToCardHover button:nth-child(2){
+    padding: 2vw 3vw; 
+}
 }
 
 @media (max-width:992px){
@@ -58,6 +87,16 @@
     .header-title h6 {
        font-size: 21px;
     }
+
+    .shoe-title{
+        font-size: 2vw;
+    }
+    .price{
+        font-size: 1.5vw;
+    }
+    .bestMain{
+        gap: 25px;
+    }
 } 
 
 @media (max-width:768px){
@@ -77,7 +116,34 @@
     }
     .header-title h6 {
         font-size: 3vw;
-     } 
+    }
+    
+    .bestSeller h2{
+        font-size: 30px;
+    }
+
+    .bestSeller p{
+        font-size: 13px;
+    }
+
+    .bestSeller button{
+        padding: 8px 17px;
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    .bestMain{
+        margin: auto;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+
+    .shoe-title{
+        font-size: 3vw;
+    }
+    .price{
+        font-size: 2vw;
+    }
 
 }
 
@@ -114,5 +180,17 @@
         font-size: 12px;
     }
 
+    .bestMain{
+        width: 70%;
+        margin: auto;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .shoe-title{
+        font-size: 4vw;
+    }
+    .price{
+        font-size: 3vw;
+    }
 
 }
